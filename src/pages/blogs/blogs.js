@@ -1,11 +1,12 @@
 import React from 'react';
+import Layout from '../../components/layout';
 
-const Blogs = () => {
+const BlogsPage = () => {
     return (
-        <div>
+        <Layout>
             <h1>Bloggy Blogs.</h1>
-        </div>
+        </Layout>
     );
 }
 
-export default Blogs;
+export default BlogsPage;
