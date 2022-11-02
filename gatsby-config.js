@@ -6,6 +6,16 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
-
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blogs", 
+        path: `${__dirname}/content/blogs`
+      },
+    },
+    "gatsby-transformer-remark",
   ],
 }
