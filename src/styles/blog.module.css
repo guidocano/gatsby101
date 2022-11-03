@@ -1,0 +1,26 @@
+.Blog {
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height: 75vh;
+    padding-bottom: 5%;
+    background-color: white;
+    color: black;
+  }
+  
+  .Blog h1, h3{
+    color: black;
+  }
+  
+  .Blog h1 {
+    padding-bottom: 2%;
+  }
+  
+  .Blog p{
+    padding-bottom: 2%;
+  }
+  
+  .Blog .BlogInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
